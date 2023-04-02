@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Scrollspy without Navigation Bar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .scrollspy-example {
+            position: relative;
+            height: 200px;
+            overflow: auto;
+        }
+
+        .scrollspy-example ul {
+            position: sticky;
+            top: 0;
+        }
+        .scrollspy-example li {
+      margin: 0 0 10px;
+      font-weight: bold;
+    }
+</style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <div class="container">
+        <div class="row">
+
+            <nav id="navbar-example2" class="col-sm-3">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#item-1">Item 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#item-2">Item 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#item-3">Item 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#item-4">Item 4</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="col-sm-9">
+                <div id="item-1">Item 1</div>
+                <div id="item-2">Item 2</div>
+                <div id="item-3">Item 3</div>
+                <div id="item-4">Item 4</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <form>
+
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Name">
+        <label for="name">Name</label>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+        <label for="email">Email</label>
+    </div>
+    <div class="form-floating mb-3">
+        <textarea class="form-control" id="message" placeholder="Message" rows="10"></textarea>
+        <label for="message">Message</label>
+    </div>
+    </form>
+</body>
+
+</html>
+
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#project1">Project 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#project2">Project 2</a>
+        </li>
+    </ul>
+    
+    <div class="tab-content">
+        <div id="project1" class="container tab-pane active"><br>
+            <h3>Project 1</h3>
+            <p>Content for project 1.</p>
+        </div>
+        <div id="project2" class="container tab-pane fade"><br>
+            <h3>Project 2</h3>
+            <p>Content for project 2.</p>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-1"><img src="assets/copyright-icon.svg" alt=""></div>
+            <div class="col-3">COPYRIGHT 2023 MADE BY MVKV</div>
+            <div class="col-2">
+                <div class="row d-flex">
+                    <div class="col"><img src="assets/linkedin-icon.svg" alt=""></div>
+                    <div class="col"><img src="assets/github-icon.svg" alt=""></div>
+                    <div class="col"><img src="assets/twitter-symbol.svg" alt=""></div>
+                </div>
+            </div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+</footer>

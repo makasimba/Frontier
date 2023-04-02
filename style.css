@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: "Nunito", sans-serif;
+}
+
+:root {
+  --primary-blue: #3E7CC8;
+  --secondary-blue: #638EFB;
+  --text-color: #7A91AD;
+  --deep-blue: #3171bf;
+  --bg-smoke-color: #f8f9fa;
+}
+
+.User-name {
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+.heading {
+  text-align: center;
+}
+.heading #heading-text {
+  font-size: 7rem;
+  font-weight: lighter;
+  color: var(--primary-blue);
+}
+.heading #subheading-text {
+  font-size: 2rem;
+  color: var(--secondary-blue);
+  font-weight: 1000;
+  background-color: --var(--bg-smoke-color);
+}
+
+.nav-item a {
+  font-weight: lighter;
+}
+
+.work h2 {
+  font-size: 7rem;
+  color: var(--deep-blue);
+  font-weight: 100;
+}
+.work .container {
+  overflow-y: scroll;
+}
+.work .tab-pane {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.contact .get-in-touch h2, .contact .get-in-touch p {
+  color: var(--text-color);
+  font-weight: lighter;
+}
+.contact .get-in-touch h2 {
+  font-size: 2rem;
+}
+.contact .get-in-touch p {
+  font-weight: 600;
+}
+.contact .form-floating .form-control {
+  background-color: #F5F5F5;
+  border-radius: 0%;
+}
+.contact .form-floating label {
+  color: var(--text-color);
+  font-size: 0.8rem;
+}
+.contact .btn {
+  border-color: var(--text-color);
+  border-width: 0.13rem;
+  color: var(--text-color);
+  border-radius: 0%;
+}
+.contact .btn .button-text {
+  font-weight: lighter;
+}
+.contact .btn:hover {
+  background-color: #F5F5F5;
+  color: var(--text-color);
+  border-color: #9facbc;
+  border-width: 0.2rem;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+/* Small devices (landscape phones, 576px and up) */
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* Large devices (desktops, 992px and up) */
+/* Extra large devices (large desktops, 1200px and up) */
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+/* Set width to make card deck cards 100% width *//*# sourceMappingURL=style.css.map */
