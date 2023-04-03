@@ -144,6 +144,7 @@ body {
   --text-color: #7A91AD;
   --deep-blue: #3171bf;
   --bg-smoke-color: #f8f9fa;
+  --gray: #e8e9ea;
 }
 
 .User-name {
@@ -155,14 +156,14 @@ body {
   text-align: center;
 }
 .heading #heading-text {
-  font-size: 7rem;
+  font-size: 5.5rem;
   font-weight: lighter;
   color: var(--primary-blue);
 }
 .heading #subheading-text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--secondary-blue);
-  font-weight: 1000;
+  font-weight: bolder;
   background-color: --var(--bg-smoke-color);
 }
 
@@ -171,7 +172,7 @@ body {
 }
 
 .work h2 {
-  font-size: 7rem;
+  font-size: 4.4rem;
   color: var(--deep-blue);
   font-weight: 100;
 }
@@ -181,6 +182,27 @@ body {
 .work .tab-pane {
   height: 100vh;
   overflow-y: scroll;
+}
+.work .list-group a {
+  background-color: var(--bg-smoke-color);
+  color: var(--secondary-blue);
+  font-weight: lighter;
+}
+.work .btn {
+  border-color: var(--gray);
+  border-width: 0.2rem;
+  color: var(--primary-blue);
+  border-radius: 0%;
+}
+.work .btn .button-text {
+  font-weight: lighter;
+}
+.work .btn:hover {
+  background-color: var(--bg-smoke-color);
+  color: var(--text-color);
+  font-size: 108%;
+  border-color: var(--gray);
+  border-width: 0.2rem;
 }
 
 .contact .get-in-touch h2, .contact .get-in-touch p {
@@ -231,6 +253,22 @@ Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
 /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 280px) {
+  .heading {
+    text-align: center;
+  }
+  .heading #heading-text {
+    font-size: 3.5rem;
+    font-weight: lighter;
+    color: var(--primary-blue);
+  }
+  .heading #subheading-text {
+    font-size: 1.5rem;
+    color: var(--secondary-blue);
+    font-weight: 1000;
+    background-color: --var(--bg-smoke-color);
+  }
+}
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 /* Large devices (desktops, 992px and up) */
 /* Extra large devices (large desktops, 1200px and up) */

@@ -36,11 +36,11 @@
 <body>
 
 
-    <nav class="navbar bg-light navbar-light sticky-top mt-4 d-flex flex-row">
+    <nav class="navbar bg-light navbar-light mt-4 d-flex flex-row">
     
-        <div class="container d-flex">
+        <div class="container-fluid">
     
-            <div class="col-1">
+            <div class="col-2">
                 <a href="index.html" class="navbar-brand d-flex align-items-center">
                     <img src="assets/profile-avatar.png" alt="profile-picture-avatar" height="32px">
     
@@ -52,14 +52,15 @@
                 </a>
             </div>
     
-            <div class="col-9"></div>
+            <div class="col-8"></div>
     
-            <div class="col-2 d-flex">
+            <div class="col-2 d-flex justify-content-end">
+    
                 <div class="theme-icon pe-3">
                     <img src="assets/theme-symbol.svg" alt="theme-toggle-icon" width="24px">
                 </div>
     
-                <div class="collapseable pe-2">
+                <div class="collapseable">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +76,7 @@
     
         <div class="collapse navbar-collapse mt-1 ps-2" id="navbarSupportedContent">
     
-            <ul class="navbar-nav mb-2 mb-lg-0 px-5 ms-5">
+            <ul class="navbar-nav mb-2 mb-lg-0 px-5">
                 <li class="nav-item">
                     <a class="nav-link active border-bottom" aria-current="page" href="index.html">HOME</a>
                 </li>
@@ -91,24 +92,31 @@
     
     </nav>
 
+
     <section class="work">
 
 
         <div class="container h-100">
 
-            <h2 class="mt-5 mb-5">Work</h2>
+            <h2 class="my-4">Work</h2>
 
             <div class="row">
 
-                <div class="col-6">
+                <div class="col-sm-8 col-md-6">
                     <div id="project-list" class="list-group">
-                        <a class="list-group-item list-group-item-action" href="assets/portfolio-project-design.png">This Site</a>
+                        <a class="list-group-item list-group-item-action" href="assets/portfolio-project-design.png">Mvkv</a>
                         <a class="list-group-item list-group-item-action" href="assets/badbunny-project-design.png">Bad Rabbits</a>
                         <a class="list-group-item list-group-item-action" href="assets/tigzozo-project-design.png">Tigzozo</a>
-                        <a class="list-group-item list-group-item-action" href="assets/ekhaya-project-design.png">khaya</a>
+                        <a class="list-group-item list-group-item-action" href="assets/ekhaya-project-design.png">Ekhaya</a>
                         <a class="list-group-item list-group-item-action" href="assets/flexbox-project-design.png">Flexbox</a>
                         <a class="list-group-item list-group-item-action" href="assets/nyamatusi-project-design.png">Nyamatutsi</a>
-                        <a class="list-group-item list-group-item-action" href="assets/bootstrap-project-design.png">Bootstrap</a>
+
+                        <button class="btn w-100 mt-2" onclick="window.open('assets/resume.pdf', '_blank')">
+                            <div class="d-flex justify-content-start ms-1">
+                                <p>SEE MY CV</p>
+                            </div>
+                        </button>
+
                     </div>
                 </div>
 
